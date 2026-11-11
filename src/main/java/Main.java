@@ -26,7 +26,7 @@ public class Main {
             System.out.println("Float: " + floatValue);
             System.out.println("Double: " + doubleValue);
             System.out.println("BigDecimal: " + bigDecimalValue);
-            System.out.println(); // adds a blank line between iterations until loop stops
+            System.out.println();
 
         }
 
@@ -51,11 +51,15 @@ public class Main {
             floatValue += 19.99f;
             doubleValue += 19.99;
             bigDecimalValue = bigDecimalValue.add(new BigDecimal("19.99"));
+
+            System.out.println("Iteration " + i);
+            System.out.println("Float: " + floatValue);
+            System.out.println("Double: " + doubleValue);
+            System.out.println("BigDecimal: " + bigDecimalValue);
+            System.out.println();
         }
 
-        System.out.println("Float: " + floatValue);
-        System.out.println("Double: " + doubleValue);
-        System.out.println("BigDecimal: " + bigDecimalValue);
+
 
 
 
