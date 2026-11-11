@@ -39,7 +39,27 @@ public class Main {
         bigDecimalValue = BigDecimal.ZERO;
 
 
+        // Second Loop - 1000 iterations
+
+        // create a loop that runs 1000 times
+        // add 19.99 to each variable
+        // print results AFTER the loop
+
+        System.out.println("\n=== LOOP 1000 TIMES, ADDING 19.99 ===");
+
+        for (int i = 1; i <= 1000; i++) {
+            floatValue += 19.99f;
+            doubleValue += 19.99;
+            bigDecimalValue = bigDecimalValue.add(new BigDecimal("19.99"));
         }
+
+        System.out.println("Float: " + floatValue);
+        System.out.println("Double: " + doubleValue);
+        System.out.println("BigDecimal: " + bigDecimalValue);
+
+
+
+    }
     }
 
 
