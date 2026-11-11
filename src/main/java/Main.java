@@ -29,7 +29,17 @@ public class Main {
             System.out.println(); // adds a blank line between iterations until loop stops
 
         }
+
+        // RESET VALUES //
+
+        // Reset all three variables back to zero
+
+        floatValue = 0.0f;
+        doubleValue = 0.0;
+        bigDecimalValue = BigDecimal.ZERO;
+
+
+        }
     }
-}
 
 
